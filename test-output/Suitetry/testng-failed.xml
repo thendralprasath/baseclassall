@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suitetry]">
+  <test thread-count="5" name="Testtry(failed)">
+    <classes>
+      <class name="org.testng.Testngsir">
+        <methods>
+          <include name="f12"/>
+          <include name="f13"/>
+          <include name="f14"/>
+          <include name="f15"/>
+          <include name="f"/>
+          <include name="f11"/>
+        </methods>
+      </class> <!-- org.testng.Testngsir -->
+      <class name="org.testng.NewTest">
+        <methods>
+          <include name="verifyHomepageTitle"/>
+          <include name="terminateBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.testng.NewTest -->
+      <class name="org.testng.NewTestpri">
+        <methods>
+          <include name="f1"/>
+          <include name="f3"/>
+          <include name="f2"/>
+          <include name="f5"/>
+          <include name="f4"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- org.testng.NewTestpri -->
+    </classes>
+  </test> <!-- Testtry(failed) -->
+</suite> <!-- Failed suite [Suitetry] -->
